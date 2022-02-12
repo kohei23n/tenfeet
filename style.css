@@ -92,3 +92,47 @@ img {
   border-radius: 4px;
   transition: all 0.5s;
 }
+
+/* main */
+.main{
+  padding: 120px 40px 160px 40px;
+}
+
+/* ------------img---------------- */
+.self-imgs{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.self-card{
+  width: 23%;
+  margin-bottom: 40px;
+  min-width: 185px;
+}
+
+.self-card div{
+  text-decoration: none;
+}
+
+.keshiro{
+  text-decoration: none;
+}
+
+/* link先 */
+/* .link-main{
+  padding: 120px ;
+} */
+.link-img{
+  width: 400px;
+}
+
+.link-page{
+  display: flex;
+}
+
+
+/* ここのページ */
+.link-page img{
+  object-fit: cover;
+}
