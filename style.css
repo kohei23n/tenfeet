@@ -3,7 +3,9 @@
   padding: 0;
 }
 
-
+html{
+  font-size: 1vw;
+}
 
 #header {
   width: 100%;
@@ -102,6 +104,62 @@ img {
   transition: all 0.5s;
 }
 
+/*         main         */
+/* main :nth-child(3){
+  padding: 0 50px 0 50px;
+} */
+
+/*         image        */
+
+.profile-imgs{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 63%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.profile-img{
+  width: 150%;
+  max-width: none;
+}
+
+.img-word{
+  width: 23%;
+  margin-bottom: 40px;
+}
+
+.main_member{
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-imgs-member{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 40%;
+  max-width: 0 !important;
+}
+
+.main_member p{
+  width: 50%;
+}
+
+button{
+  margin: 5rem auto;
+  display: block;
+  border: none;
+  background-color: white;
+}
+
+button a{
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+}
 .open .button span {
   background-color: #fff;
 }
