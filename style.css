@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+html{
+  font-size: 1vw;
+}
+
 #header {
   width: 100%;
   height: 80px;
@@ -91,4 +95,53 @@ img {
   background-color: #333;
   border-radius: 4px;
   transition: all 0.5s;
+}
+
+/*         main         */
+.main{
+  padding: 120px 40px 160px 40px;
+}
+
+/*         image        */
+
+.profile-imgs{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.img-word{
+  width: 23%;
+  margin-bottom: 40px;
+}
+
+.main_member{
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-imgs-member{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 20rem;
+}
+
+.main_member p{
+  width: 50%;
+}
+
+button{
+  margin: 5rem auto;
+  display: block;
+  border: none;
+  background-color: white;
+}
+
+button a{
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
 }
